@@ -1,10 +1,10 @@
 # black_mask_to_coloured
 convert coloured (RGB) mask (.png) into one channel black mask for machine learning segmentation.
 
-![picture](https://github.com/boguss1225/coloured_mask_to_black/blob/main/screenshot.png)
+![picture](screenshot.png)
 
 ## USAGE
-Configure [Line15~17](https://github.com/boguss1225/coloured_mask_to_black/blob/e65e3441dc2cbc112e7102f19d5d5fa043f79ae4/maskcvt_git.py#L15-L17)
+Configure [Line15~17](maskcvt_git.py#L15-L17)
 ```python
 path = '/Users/bogus/Downloads/SegmentationClass/' # Source Folder
 dstpath = '/Users/bogus/Downloads/SegmentationClass2/' # Destination Folder
